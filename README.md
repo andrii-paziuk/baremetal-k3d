@@ -1,5 +1,11 @@
 # Baremetal k3d GitOps with Flux
-## Command
+## Deploy k3d
+```
+k3d cluster create baremetal \
+  -p "80:80@loadbalancer" \
+  -p "443:443@loadbalancer"
+```
+## Connect Flux to GitHub
 ```
 flux bootstrap github \
   --owner=<your-github-username> \
