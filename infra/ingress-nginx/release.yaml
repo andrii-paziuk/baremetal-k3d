@@ -16,4 +16,4 @@ spec:
   values:
     controller:
       service:
-        type: NodePort 
+        type: LoadBalancer
