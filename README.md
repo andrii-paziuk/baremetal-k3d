@@ -27,7 +27,7 @@ Check Pod Logs
 ```
 kubectl describe pod -n whoami <pod-name>
 ```
-Did Flux pick up my Git change? (READY=True)
+Did Flux pick up Git change? (READY=True)
 ```
 flux get sources git -n flux-system
 ```
