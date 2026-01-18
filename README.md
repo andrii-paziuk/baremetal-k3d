@@ -9,11 +9,11 @@ flux bootstrap github \
   --personal
 ```
 ## Verify State
-● Is Flux healthy?
+Is Flux healthy?
 ```
 flux get kustomizations -A
 ```
-● What did Flux actually apply?
+What did Flux actually apply?
 ```
 flux tree kustomization flux-system -n flux-system
 ```
