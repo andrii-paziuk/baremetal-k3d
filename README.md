@@ -1,7 +1,7 @@
 # Baremetal k3d GitOps with Flux
 ## Deploy k3d
 ```
-k3d cluster create baremetal \
+k3d cluster create <your_cluster_name> \
   -p "80:80@loadbalancer" \
   -p "443:443@loadbalancer"
 ```
