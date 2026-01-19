@@ -1,4 +1,4 @@
-# Baremetal k3d GitOps with Flux
+# Baremetal k3d (Kubernetes cluster) GitOps with Flux
 ## Create k3d cluster
 ```
 k3d cluster create <your_cluster_name> \
